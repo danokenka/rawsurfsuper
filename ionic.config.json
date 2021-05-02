@@ -1,0 +1,7 @@
+{
+  "name": "RawSurfSuper",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "ionic-angular"
+}
