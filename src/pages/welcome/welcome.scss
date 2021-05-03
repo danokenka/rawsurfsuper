@@ -1,9 +1,9 @@
 page-welcome {
   .splash-bg {
     position: relative;
-    background: url('../assets/img/splashbg.png') no-repeat transparent;
+    background: url('../assets/img/hangloose.png') no-repeat transparent;
     background-size: cover;
-    height: 45%;
+    height: 55%;
     z-index: 1;
     background-repeat: repeat-x;
     animation: animatedBackground 40s linear infinite;
@@ -22,8 +22,10 @@ page-welcome {
   }
   .splash-logo {
     margin: auto;
-    background: url('../assets/img/appicon.png') repeat transparent;
+    background-color: transparent;
+    background: url('../assets/img/icon.png');
     background-size: 100%;
+  
     width: 128px;
     height: 128px;
   }
@@ -35,7 +37,7 @@ page-welcome {
   }
   button.login {
     margin-top: 25px;
-    background-color: white;
+    background-color:  #fbf13a;;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
     color: #333;
 
@@ -43,4 +45,7 @@ page-welcome {
       background-color: rgb(220, 220, 220);
     }
   }
+
+  
+
 }

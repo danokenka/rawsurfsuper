@@ -1,7 +1,8 @@
 page-tutorial {
   .toolbar-background {
-    background: transparent;
-    border-color: transparent;
+    background: #FBF13A;
+    border-color: black;
+    opacity: 0.75
   }
 
   .slide-zoom {
@@ -23,14 +24,25 @@ page-tutorial {
   }
 
   p {
+    background: #fbf13a;
+    opacity: 0.75;
     padding: 0 40px;
     font-size: 14px;
     line-height: 1.5;
-    color: #60646B;
+    color: black;
 
     b {
       color: #000000;
     }
   }
+  ion-content {
+    background: url('../assets/img/background-wave.png') no-repeat center/cover fixed;
+  }
 
+}
+
+
+.continue-button {
+  background: #fbf13a;
+  color: black;
 }
